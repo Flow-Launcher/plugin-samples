@@ -6,8 +6,7 @@
   "Author": "happlebao",
   "Version": "1.0.0",
   "Language": "csharp",
-  "Website": "https://github.com/Flow-Launcher/Flow.Launcher",
+  "Website": "https://github.com/Flow-Launcher/plugin-samples",
   "ExecuteFileName": "HelloWorldCSharp.dll",
-  "IcoPath": "app.png",
-  "Disabled": true
+  "IcoPath": "Images\\app.png"
 }
