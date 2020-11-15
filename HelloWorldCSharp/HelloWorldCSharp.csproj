@@ -8,6 +8,7 @@
     <AssemblyName>HelloWorldCSharp</AssemblyName>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
     <ApplicationIcon />
     <OutputType>Library</OutputType>
     <StartupObject />
@@ -23,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Flow.Launcher.Plugin" Version="1.0.0" />
+    <PackageReference Include="Flow.Launcher.Plugin" Version="1.2.2" />
   </ItemGroup>
 
 </Project>
