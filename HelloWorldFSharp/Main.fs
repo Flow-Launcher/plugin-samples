@@ -1,6 +1,7 @@
 ﻿namespace HelloWorldFSharp
 
 open Flow.Launcher.Plugin
+open Flow.Launcher.Plugin.SharedCommands
 open System.Collections.Generic
 
 type HelloWorldFSharpPlugin() =
@@ -20,7 +21,7 @@ type HelloWorldFSharpPlugin() =
                         SubTitle = "click to open in browser",
                         Action = (fun ctx ->
                                     initContext.CurrentPluginMetadata.Website
-                                        |> System.Diagnostics.Process.Start
+                                        |> SearchWeb.NewTabInBrowser
                                         |> ignore
                                     true))
 
