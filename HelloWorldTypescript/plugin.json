@@ -1,0 +1,12 @@
+{
+  "ID": "427af2d93427468f8179665bc591c6c3",
+  "ActionKeyword": "ht",
+  "Name": "Hello World Typescript",
+  "Description": "Hello World Typescript",
+  "Author": "Zero <Zeroto521>",
+  "Version": "1.0.0",
+  "Language": "executable",
+  "Website": "https://github.com/Flow-Launcher/plugin-samples",
+  "ExecuteFileName": "node.bat",
+  "IcoPath": "Images\\app.png"
+}
