@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0-windows</TargetFramework>
     <ProjectGuid>{03FFA443-5F50-48D5-8869-F3DF316803AA}</ProjectGuid>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>HelloWorldCSharp</RootNamespace>
@@ -24,7 +24,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Flow.Launcher.Plugin" Version="1.3.0" />
+    <PackageReference Include="Flow.Launcher.Plugin" Version="2.0.0" />
   </ItemGroup>
 
 </Project>
