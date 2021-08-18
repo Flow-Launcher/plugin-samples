@@ -14,9 +14,9 @@ class HelloWorld(FlowLauncher):
     def query(self, query):
         return [
             {
-                "Title": "Hello World, this is where title goes. Your query: {}".format(query),
+                "Title": "Hello World, this is where title goes. {}".format(('Your query is: ' + query , query)[query == '']),
                 "SubTitle": "This is where your subtitle goes",
-                "IcoPath": "Images/app.ico",
+                "IcoPath": "Images/app.png",
                 "ContextData": "ctxData",
             }
         ]
