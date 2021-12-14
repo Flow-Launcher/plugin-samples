@@ -17,6 +17,10 @@ class HelloWorld(FlowLauncher):
                 "Title": "Hello World, this is where title goes. {}".format(('Your query is: ' + query , query)[query == '']),
                 "SubTitle": "This is where your subtitle goes",
                 "IcoPath": "Images/app.png",
+                "JsonRPCAction": {
+                    "method": "do_something_for_query",
+                    "parameters": [param1, param2]
+                }
                 "ContextData": "ctxData",
             }
         ]
@@ -30,6 +34,8 @@ class HelloWorld(FlowLauncher):
             }
         ]
 
+    def do_something_for_query(self, param1, param2):
+        pass
 
 if __name__ == "__main__":
     HelloWorld()
