@@ -21,7 +21,7 @@ type HelloWorldFSharpPlugin() =
                         SubTitle = "click to open in browser",
                         Action = (fun ctx ->
                                     initContext.CurrentPluginMetadata.Website
-                                        |> SearchWeb.NewTabInBrowser
+                                        |> SearchWeb.OpenInBrowserTab
                                         |> ignore
                                     true))
 
